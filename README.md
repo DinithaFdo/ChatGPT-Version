@@ -111,7 +111,7 @@ Create a `.env.local` file in the root directory:
 ```env
 # MongoDB Atlas connection string
 # Replace <user>, <pass>, <cluster>, and <db> with your actual values
-MONGODB_URI="mongodb://dinitha:MTIT@ac-y4nymg7-shard-00-00.k2yu6xc.mongodb.net:27017,ac-y4nymg7-shard-00-01.k2yu6xc.mongodb.net:27017,ac-y4nymg7-shard-00-02.k2yu6xc.mongodb.net:27017/?authSource=admin&replicaSet=atlas-14htpf-shard-0&retryWrites=true&w=majority&appName=ChatGPT&tls=true"
+MONGODB_URI="your_connection_string"
 
 # Gemini API Key from Google AI Studio
 GEMINI_API_KEY="your_gemini_api_key_here"
